@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Jan Ban 4Ti">
+    <title>Koledowanie</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <audio src="DzisiajWBetlejem.mp3" style="display: none;"></audio>
+
+    <div class="container">
+        <div class="selection">
+            <a onclick="DzisiajWBetlejemKoleda()"> Dzisiaj w Betlejem </a>
+            <a onclick="CichaNocKoleda()">Cicha Noc</a>
+            <a onclick="BogSieRodziKoleda()">Bóg się rodzi</a>
+        </div>
+        <div class="betlejem visible">
+            <h1>Dzisiaj w Betlejem</h1>
+            <pre>
+Dzisiaj w Betlejem, dzisiaj w Betlejem wesoła nowina
+Że Panna czysta, że Panna czysta porodziła Syna 
+
+Chrystus się rodzi, nas oswobodzi
+Anieli grają, króle witają
+Pasterze śpiewają, bydlęta klękają
+Cuda, cuda ogłaszają. 
+
+Chrystus się rodzi, nas oswobodzi
+Anieli grają, króle witają
+Pasterze śpiewają, bydlęta klękają
+Cuda, cuda ogłaszają 
+
+Maryja Panna, Maryja Panna Dzieciątko piastuje
+I Józef Święty, i Józef Święty ono pielęgnuje 
+
+Chrystus się rodzi, nas oswobodzi
+Anieli grają, króle witają
+Pasterze śpiewają, bydlęta klękają
+Cuda, cuda ogłaszają 
+
+Chrystus się rodzi, nas oswobodzi
+Anieli grają, króle witają
+Pasterze śpiewają, bydlęta klękają
+Cuda, cuda ogłaszają
+
+Choć w stajeneczce, choć w stajeneczce Panna syna rodzi
+Przecież On wkrótce, przecież On wkrótce ludzi oswobodzi
+
+Chrystus się rodzi, nas oswobodzi
+Anieli grają, króle witają
+Pasterze śpiewają, bydlęta klękają
+Cuda, cuda ogłaszają
+
+Chrystus się rodzi, nas oswobodzi
+Anieli grają, króle witają
+Pasterze śpiewają, bydlęta klękają
+Cuda, cuda ogłaszają
+<a id="play" onclick="playOnLoad()"> Włącz muzykę </a>
+            </pre> 
+        </div>
+        <div class="cicha-noc hidden">
+            <h1>Cicha Noc</h1>
+            <pre>
+Cicha noc święta noc
+Pokój niesie ludziom wszem
+A u żłóbka Matka Święta
+Czuwa sama uśmiechnięta
+Nad dzieciątka snem
+Nad dzieciątka snem
+
+Cicha noc święta noc
+Pastuszkowie od swych trzód
+Biegną wielce zadziwieni
+Za anielskim głosem pieni
+Gdzie się spełnił cud
+Gdzie się spełnił cud
+
+Cicha noc święta noc
+Narodzony Boży Syn
+Pan Wielkiego majestatu
+Niesie dziś całemu światu
+Odkupienie win
+Odkupienie win
+
+Cicha noc święta noc
+            </pre> 
+        </div>
+        <div class="bog-sie-rodzi hidden">
+            <h1>Bóg się rodzi</h1>
+            <pre>
+Bóg się rodzi, moc truchleje
+Pan niebiosów obnażony!
+Ogień krzepnie, blask ciemnieje
+Ma granice Nieskończony
+Wzgardzony, okryty chwałą
+Śmiertelny Król nad wiekami!
+A Słowo Ciałem się stało
+I mieszkało między nami
+
+Cóż niebo, masz nad ziemiany?
+Bóg porzucił szczęście Twoje
+Wszedł między lud ukochany
+Dzieląc z nim trudy i znoje
+Niemało cierpiał, niemało
+Żeśmy byli winni sami
+A Słowo
+
+W nędznej szopie urodzony
+Żłób Mu za kolebkę dano!
+Cóż jest czym był otoczony?
+Bydło, pasterze i siano
+Ubodzy, was to spotkało
+Witać Go przed bogaczami!
+A Słowo
+
+Potem królowie widziani
+Cisną się między prostotą
+Niosąc dary Panu w dani
+Mirrę, kadzidło i złoto
+Bóstwo to razem zmieszało
+Z wieśniaczymi ofiarami
+A Słowo
+
+Podnieś rękę, Boże Dziecię
+Błogosław Ojczyznę miłą!
+W dobrych radach, w dobrym bycie
+Wspieraj jej siłę swą siłą
+Dom nasz i majętność całą
+I wszystkie wioski z miastami
+A Słowo
+            </pre> 
+        </div>
+    </div>
+    
+</body>
+</html>
